@@ -4,69 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title> 
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/header-and-footer.css">
+    <link rel="stylesheet" href="style/blog.css">
+    <link rel="stylesheet" href="./javascript/onclick.js">
+
 </head>
 <body>
-    
-        
+    <div class="nav">
+      <section class="bar-text-container">
+        <h4> Thitna Damtew</h4> 
+      <div class="container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+      </section>
+      <div class="nav-menu hide">
+        <a href="index.html">Home</a>
+        <a href="About me.html">Aboutme</a>
+        <a href="Education.html">Education</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+    </div>
         <nav>
-            <h4> Thitna Damtew</h4>
-            <ul>
-                <li >
-                    <a href="" class="button"> Home</a>                    
+          <h4> Thitna Damtew</h4> 
+          <ul > 
+             <li >
+               <a href="index.html" class="button"> Home</a>                    
+                         
+             </li>
                 
-            </li>
-       
-            <li >
-                    <a href ="" class="button">About me</a>
-            </li>
-        
-            <li >
-                    <a href="" class="button">Education</a>
-            </li>
-       
-            <li >
-                    <a href="" class="button">Blog</a>
-            </li>
-
-            <li >
-                    <a href="" class="button">Contact</a>
-            </li>
-            </ul>  
-        </nav>
-    <header>
+             <li >
+               <a href ="About me.html" class="button">About me</a>
+             </li>
+                 
+             <li >
+               <a href="Education.html" class="button">Education</a>
+             </li>
+                
+             <li >
+               <a href="Blog.html" class="button">Blog</a>
+             </li>
+     
+             <li >
+               <a href="Contact.html" class="button">Contact</a>
+             </li>
+          </ul>  
+      </nav>
+      <header>
         <h1>Blog </h1>
         <p>
             Experience and Travels
         </p>
-
-    </header>
-<main>
+      </header>
+      </div>
+<main> 
     <section>
         <div>
-            <div>
-                <img src="images/bishoftu.avif" alt="">
-                <h3>
-                 Travel(Bishoftu)
-                </h3>
-                <p>
-                    I had the privilege of visiting the enchanting town of <strong>Bishoftu</strong> , nestled in the Debere Zeyit district of Ethiopia, during my family vacation in 2023. This serene locale boasts the stunning Lake Bishoftu and the equally captivating Hora Lake. The opportunity to witness these natural wonders, along with playful monkeys, made this trip an unforgettable experience
-                </p>
+            <div class="blog-container">
+                <section
+                class="img-bishoftu">
+                  <img 
+                  
+                  src="images/bishoftu.avif" alt="">
+                </section>
+                
+                <section>
+                  <h3>
+                      Travel(Bishoftu)
+                     </h3>
+                   <p>
+                    
+                       I had the privilege of visiting the enchanting town of <strong>Bishoftu</strong> , nestled in the Debere Zeyit district of Ethiopia, during my family vacation in 2023. This serene locale boasts the stunning Lake Bishoftu and the equally captivating Hora Lake. The opportunity to witness these natural wonders, along with playful monkeys, made this trip an unforgettable experience
+                   </p>
+                </section>
+                
                 
 
             </div>
             
         </div>
         <div>
-            <div>
+            <div class="blog-container1">
+              <section>
+                <img src="images/Lake_Tana.jpg" alt="">
+              </section>
+              
+              <section>
                 <h3>
                   Travel(Lake Tana)  
                 </h3>
                 <p>
                     Another unforgettable destination during my Ethiopian adventure was <strong> Lake Tana</strong> , situated in the beautiful city of Bahirdar. This serene lake is home to a diverse array of bird species and historic monasteries. Exploring this stunning landscape was a truly enriching experience
                 </p>
-                <img src="images/Lake_Tana.jpg" alt="">
+              </section>
+                
+                
             </div>
-            <div>
+            <div class="blog-container2">
                 <video controls >
                     <source src="videos/Lake-Tana2.mp4">
 
@@ -80,20 +117,28 @@
 </main>
 <footer>
         
-    <p>
-        Next Step? Keep In Touch.
-    </p>
-    <p>
-        Thitna damtew
-    </p>
-    <a href="https://thitnadamtew@gmail.com">
-
-
-    <img src="images/gmail.jpeg" alt="">
-    </a>
-    <p>&copy; All right reserved!</p>
-    
+    <div class="footer-p">
+        <p>
+              Next Step? Keep In Touch.
+        </p>
+        <p 
+          class="footer-name">
+              Thitna damtew
+        </p>
+        <a href="https://thitnadamtew@gmail.com"> 
+        </a> 
+      </div>
+          
+      <div class="copy-right">
+        <div
+        class="footer-img"><img class="footer-img" src="images/gmail.jpeg" alt=""></div> 
+        
+      </div>
+    <div><p class="copy-right-p">
+          &copy; All right reserved!
+        </p> </div>
 </footer>
 
 </body>
+<script src="./javascript/onclick.js"></script>
 </html>

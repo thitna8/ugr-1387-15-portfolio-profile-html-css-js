@@ -1,0 +1,126 @@
+table, th, td{
+    background-color: aliceblue;
+    border: 2px  solid;
+    border-collapse: collapse;
+    max-width: fit-content;
+    font-size: 18px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .img-text-container-container{
+        display: flex;
+        flex: 1 ;
+        column-gap: 140px;
+        
+    }
+    .image-text{
+        
+      position: absolute;
+      top: 10px;
+      right: -90px;
+       
+    }
+    .img-text-container{
+        position: relative;
+    }
+    .img-text-container2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .image-h{
+        position: absolute;
+      top: 2px;
+     
+
+    }
+    .table{
+        background-color:#BAAFAF ;
+        height: 170px;
+    }
+
+ }
+
+ @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    .img-text-container-container{
+        display: flex;
+        flex-direction: row;
+        column-gap: 140px;
+        position: none;
+    }
+    .img-text-container{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        
+
+    }
+    .img-text-container2{
+        display: flex;
+        flex-direction: column;
+        position: none;
+        row-gap: 100px;
+        flex: 1;
+    }
+    .image-h{
+        position: absolute;
+      top: 260px;
+      margin-bottom: 0;
+     
+
+    }
+    .image-text{
+       
+        position: absolute;
+        top: 260px;
+        right: -90px;
+         
+      }
+      .table{
+        background-color: #f3f3f3;
+        height: 170px;
+        margin-top: 13%;
+        width: 90%;
+    }
+   
+  
+ }
+
+ @media (max-width: 767px) and (orientation: landscape) {
+    .img-text-container-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-text-container, .img-text-container2{
+        display: flex;
+        column-gap: 5%;
+    }
+ }
+
+ @media (min-width: 1024px) {
+    bod
+    .img-text-container-container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .img-text-container, .img-text-container2{
+        display: flex;
+        column-gap: 5%;
+    }
+    .table{
+        display: grid;
+        background-color:#BAAFAF ;
+        height: 200px;
+        justify-content: center;
+        
+
+    }
+    table{
+        margin-bottom: 30px;
+    }
+   
+    
+ }

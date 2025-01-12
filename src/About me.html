@@ -4,91 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/aboutme.css">
+    <link rel="stylesheet" href="style/header-and-footer.css">
 </head>
 <body>
     
-         
-        <nav >
-           <h4> Thitna Damtew</h4>
-            <ul>
-                <li >
-                    <a href="" class="button"> Home</a>                    
-                
-            </li>
-       
-            <li >
-                    <a href ="" class="button">About me</a>
-            </li>
-        
-            <li >
-                    <a href="" class="button">Education</a>
-            </li>
-       
-            <li >
-                    <a href="" class="button">Blog</a>
-            </li>
-
-            <li >
-                    <a href="" class="button">Contact</a>
-            </li>
-            </ul>  
-        </nav>
+    <div class="nav">
+      <section class="bar-text-container">
+        <h4> Thitna Damtew</h4> 
+      <div class="container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+      </section>
+      <div class="nav-menu hide">
+        <a href="index.html">Home</a>
+        <a href="About me.html">Aboutme</a>
+        <a href="Education.html">Education</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+      <nav>
+        <h4> Thitna Damtew</h4> 
+        <ul > 
+           <li >
+             <a href="index.html" class="button"> Home</a>                    
+                       
+           </li>
+              
+           <li >
+             <a href ="About me.html" class="button">About me</a>
+           </li>
+               
+           <li >
+             <a href="Education.html" class="button">Education</a>
+           </li>
+              
+           <li >
+             <a href="Blog.html" class="button">Blog</a>
+           </li>
+   
+           <li >
+             <a href="Contact.html" class="button">Contact</a>
+           </li>
+        </ul>  
+    </nav>
     <header>
         <h1> About Me</h1>
         <p> Plans and Hobbies.</p>
     </header>
+    </div>
     
-<section>
-    <div >
-        <div>
-            <div >
-                <img src="images/female.jpeg" alt="">
-                <p>hey there!</p>
-                <h3>Plans</h3>
-                <p>
-                    I'm excited about my future plans, which include becoming a skilled web designer and a dedicated educator. I'm passionate about technology and love helping others learn and grow. 
-                </p>
-                
-            </div>
-            <div >
-                <img src="images/hobby.png" alt="">
-                <h3>Hobby</h3>
-                <p>Born in the heart of Addis Ababa, in the peaceful enclave of Delber, I've always been a nature lover. From the smallest creature to the grandest landscape, I find beauty in all of God's creations. Cats, in particular, have a special place in my heart, and I often lose myself in thought, pondering the wonders of the universe.</p>
-                
-            </div>
-        </div>
-        
-            <div >
-                <p>Relax and enjoy these funny cat videos. 
-                Ready to be entertained? These funny cat videos are sure to brighten your day!</p>
-                
-            </div>
-            <div >
-                <video controls >
-                    <source src="videos/cat_video1.mp4">
+<main>
+   
+    <section>
+        <div >
+            <div class="img-text-container-container">
+                <div class="img-text-container">
+                    <div>
+                      <img src="images/female.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                      <p 
+                      class="div-p"
+                      >hey there!</p>
+                      <h3>Plans</h3>
+                      <p>
+                          I'm excited about my future plans, which include becoming a skilled web designer and a dedicated educator. I'm passionate about technology and love helping others learn and grow. 
+                      </p>
+                    </div>
 
-                </video>
+                </div>
+
+                <div   class="img-text-container">
+                    <div>
+                      <img src="images/hobby.png" alt="">
+                    </div>
+                    <div>
+                      <h3>Hobby</h3>
+                     <p>Born in the heart of Addis Ababa, in the peaceful enclave of Delber, I've always been a nature lover. From the smallest creature to the grandest landscape, I find beauty in all of God's creations. Cats, in particular, have a special place in my heart, and I often lose myself in thought, pondering the wonders of the universe.</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+                <div class="video-text-container">
+                  <div >
+                    <p class="video-description">Relax and enjoy these funny cat videos.
+                    </p>
+                    <p>
+                      Ready to be entertained? These funny cat videos are sure to brighten your day!
+                    
+                    </p>
+                    
+                </div>
+                <div >
+                    <video controls >
+                        <source src="videos/cat_video1.mp4">
+    
+                    </video>
+                    
+                </div>
+                </div>
                 
             </div>
-        </div>
+    
+    </section> 
+    
+</main>
+    
+    
 
-</section>
 <footer>
         
-    <p>
-        Next Step? Keep In Touch.
-    </p>
-    <p>
-        Thitna damtew
-    </p>
-    <a href="https://thitnadamtew@gmail.com">
-
-
-    <img src="images/gmail.jpeg" alt="">
-    </a>
-    <p>&copy; All right reserved!</p>
-    
+  <div class="footer-p">
+      <p>
+            Next Step? Keep In Touch.
+      </p>
+      <p 
+        class="footer-name">
+            Thitna damtew
+      </p>
+      <a href="https://thitnadamtew@gmail.com"> 
+      </a> 
+    </div>
+        
+    <div class="copy-right">
+      <div
+      class="footer-img"><img class="footer-img" src="images/gmail.jpeg" alt=""></div> 
+      
+    </div>
+  <div><p class="copy-right-p">
+        &copy; All right reserved!
+      </p> </div>
 </footer>
 
 </body>
+
+<script src="./javascript/onclick.js"></script>
 </html>

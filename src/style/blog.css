@@ -1,0 +1,124 @@
+.blog-container{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    column-gap: 6px;
+}
+.blog-container img{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    
+   
+}
+video{
+    margin-top: 10px;
+    max-width: 80%;
+    border: 1px solid;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .blog-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.01%;
+        background-color:#BAAFAF ;
+        margin-top: 30px;
+        
+    }
+   
+    .blog-container img, .blog-container1 img{
+        display: flex;
+        width: 80%;
+        height: 150px;
+       
+    }
+    .blog-container1, .blog-container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.01%;
+        margin-bottom: 30px;
+    }
+    video{
+        width: 80%;
+        height: 150px;
+    }
+  
+
+    
+}
+ @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    .blog-container{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 3%;
+        background-color:  #f3f3f3;
+        margin-top: 30px;
+        
+    } 
+    .blog-container img{
+        display: flex;
+        width: 200px;
+        height: 150px;   
+    }
+    .blog-container2{
+        display: flex;
+        column-gap: 10%;
+        flex-direction: row-reverse;
+        flex: 1;
+    }
+    video{
+        width: 80%;
+        height: 150px;
+    }
+    }
+@media (max-width: 767px) and (orientation: landscape) {
+        .blog-container{
+            background-color: #BAAFAF;
+            margin-top: 30px;
+        }
+        .blog-container2{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 40px;
+            
+        }
+    }
+@media (min-width: 1024px) {
+    .blog-container{
+        display: flex;
+        flex-direction: row-reverse;
+        column-gap: 3%;
+        background-color:  #f3f3f3;
+        margin-top: 30px;
+        background-color:#BAAFAF ;
+        
+    } 
+    .blog-container1{
+        display: flex;
+        flex-direction: row;
+        column-gap: 3%;
+        background-color:  #f3f3f3;
+        margin-top: 30px;
+
+    }
+    .blog-container img{
+        display: flex;
+        width: 200px;
+        height: 150px;  
+        margin-bottom: 40px;
+         
+    }
+    .blog-container2{
+        display: flex;
+        column-gap: 2%;
+        flex-direction: row;
+        flex: 1;
+        margin-top: 50px;
+    }
+    video{
+        width: 40%;
+        height: 150px;
+        
+    }
+
+}
+
